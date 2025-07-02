@@ -1416,7 +1416,14 @@ def _parse_args():
         "--vace-1-3B",
         action="store_true",
         help="Vace ControlNet 1.3B model"
-    )    
+    ) 
+
+    parser.add_argument(
+        "--vace-14B",
+        action="store_true",
+        help="Vace ControlNet 14B model"
+    ) 
+    
     parser.add_argument(
         "--i2v-1-3B",
         action="store_true",
